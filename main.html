@@ -7,38 +7,128 @@
     <title>Assignment</title>
 </head>
 <body>
+    <div class="quiz-container">
     <h1><i> Software Development Assigment 1 </i></h1>
     <h2>Welcome to MCQ Quiz</h2>
     <h3><b>Read the questions carefully and submit your answers!</b></h3>
-    <p>Q1. What is the captial of Bangladesh?</p>
-    <input type="radio" name="1"> Chittagong <br>
-    <input type="radio" name="1"> Dhaka <br>
-    <input type="radio" name="1"> Khulna <br>
-    <input type="radio" name="1"> Sylhet <br>
-    <p>Q2. How many districts are there in Bangladesh?</p>
-    <input type="radio" name="2"> 62 <br>
-    <input type="radio" name="2"> 61<br>
-    <input type="radio" name="2"> 64 <br>
-    <input type="radio" name="2"> 63 <br>
-    <p>Q3. WHat is the name of the currency of Bangladesh?</p>
-    <input type="radio" name="3"> Mudra <br>
-    <input type="radio" name="3"> Taka<br>
-    <input type="radio" name="3"> Poisha <br>
-    <input type="radio" name="3"> Rupi <br>
-    <p>Q4. Which one is the national fish of Bangladesh?</p>
-    <input type="radio" name="4"> Katla <br>
-    <input type="radio" name="4"> Pangash<br>
-    <input type="radio" name="4"> Rui <br>
-    <input type="radio" name="4"> Hilsha <br>
-    <p>Q5. WHat is the ratio of the flag of Bangladesh?</p>
-    <input type="radio" name="5"> 10:6 <br>
-    <input type="radio" name="5"> 10:10 <br>
-    <input type="radio" name="5"> 6:10 <br>
-    <input type="radio" name="5"> 6:6 <br>
-    <a href="ans.html" target="_blank">Submit</a>
+        <hr>
+        <form id="quiz-form">
+          <div class="d-flex">
+            <div class="question">
+              <p>1. What is the captial of Bangladesh?</p>
+              <div class="answers">
+                <label>
+                  <input type="radio" name="q1" value="a">
+                  Chittagong
+                </label>
+                <label>
+                  <input type="radio" name="q1" value="b">
+                  Dhaka
+                </label>
+                <label>
+                  <input type="radio" name="q1" value="c">
+                  Khulna
+                </label>
+                <label>
+                  <input type="radio" name="q1" value="d">
+                  Sylhet
+                </label>
+              </div>
+            </div>
+            
+            <div class="question">
+              <p>2. How many districts are there in Bangladesh?</p>
+              <div class="answers">
+                <label>
+                  <input type="radio" name="q2" value="a">
+                  62
+                </label>
+                <label>
+                  <input type="radio" name="q2" value="b">
+                  61
+                </label>
+                <label>
+                  <input type="radio" name="q2" value="c">
+                  64
+                </label>
+                <label>
+                  <input type="radio" name="q2" value="d">
+                  63
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="question">
+            <p>3. WHat is the name of the currency of Bangladesh?</p>
+            <div class="answers">
+              <label>
+                <input type="radio" name="q3" value="a">
+                Mudra
+              </label>
+              <label>
+                <input type="radio" name="q3" value="b">
+                Taka
+              </label>
+              <label>
+                <input type="radio" name="q3" value="c">
+                Poisha
+              </label>
+              <label>
+                <input type="radio" name="q3" value="d">
+                Rupee
+              </label>
+            </div>
+          </div>
+          <div class="question">
+            <p>4. Which one is the national fish of Bangladesh?</p>
+            <div class="answers">
+              <label>
+                <input type="radio" name="q4" value="a">
+                Katla
+              </label>
+              <label>
+                <input type="radio" name="q4" value="b">
+                Pangash
+              </label>
+              <label>
+                <input type="radio" name="q4" value="c">
+                Rui
+              </label>
+              <label>
+                <input type="radio" name="q4" value="d">
+                Hilsha
+              </label>
+            </div>
+          </div>
+          <div class="question">
+            <p>5. WHat is the ratio of the flag of Bangladesh?</p>
+            <div class="answers">
+              <label>
+                <input type="radio" name="q5" value="a">
+                10:6
+              </label>
+              <label>
+                <input type="radio" name="q5" value="b">
+                10:10
+              </label>
+              <label>
+                <input type="radio" name="q5" value="c">
+                6:10
+              </label>
+              <label>
+                <input type="radio" name="q5" value="d">
+                Rupee
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <div class="result" id="result"></div>
+      </div>
     <address>
         Name: Amir Hossan<br>
         Id No: C223094
     </address>
+    <script src="script.js"></script>
 </body>
 </html>
