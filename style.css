@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(215, 239, 250);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: red;
+    background: #000;
+}
+address{
+    text-align: right;
+}
